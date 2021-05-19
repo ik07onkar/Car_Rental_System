@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="..\css\login.css">
+</head>
+<body>
+    <div class="title-bar">
+        <a href="Popular_location.html"><button class="btn" type="submit">Popular Locations</button></a>
+        <a href="login.html"><button class="btn" type="submit">Login</button></a>
+        <a href="Car_Rental_System.html"><button class="btn active" type="submit">Home</button></a>
+        <a href="Car_Rental_System.html" ><button class="icon-btn" type="submit"><img src="..\images\home-icon.png" alt="car-logo" width="17" height="17"></button></a>
+    </div>
+    <h1>Sign Up</h1>
+    <form action="/action_page.php" method="post">
+        <h2 style="-webkit-text-fill-color:white;-webkit-text-stroke-color: white;">Please fill in this form to create an account.</h2>
+        <hr>
+        <div class="imgcontainer">
+            <img src="..\images\login.jpg" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+            <label for="email" style="-webkit-text-fill-color:white"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label for="psw"><b style="-webkit-text-fill-color:white">Create Password</b></label>
+            <input type="password" placeholder="Create Password" name="psw" required>
+        
+            <label for="psw-repeat" style="-webkit-text-fill-color:white"><b>Confirm Password</b></label>
+            <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+              
+            <button type="Submit">Signup</button>
+            <label style="-webkit-text-fill-color:white">
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw"><p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p></span>
+        </div>
+    </form>
+  </div>
+  </form>
+  <footer class="sticky-footer">
+    <ul>
+        <li><a href="Car_Rental_System.html">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="Contact_us.html">Contact us</a></li>
+        <li><a href="#">Technical support</a></li>
+    </ul>
+    <p> © 2021 Rental Car All rights reserved | Terms of Service | Privacy Policy</p>
+  </footer>
+</body>
+</html>

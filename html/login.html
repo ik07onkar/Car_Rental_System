@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="..\css\login.css">
+</head>
+<body>
+
+    <div class="title-bar">
+        <a href="Popular_location.html"><button class="btn" type="submit">Popular Locations</button></a>
+        <a href="signup.html"><button class="btn" type="submit">Signup</button></a>
+        <a href="Car_Rental_System.html"><button class="btn active" type="submit">Home</button></a>
+        <a href="Car_Rental_System.html" ><button class="icon-btn" type="submit"><img src="..\images\home-icon.png" alt="car-logo" width="17" height="17"></button></a>
+    </div>
+
+    <h2>Login Form</h2>
+
+    <form action="/action_page.php" method="post">
+        <div class="imgcontainer">
+            <img src="..\images\login.jpg" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname" style="-webkit-text-fill-color:white"><b>UserId</b></label>
+            <input type="text" placeholder="Enter Customer Id" name="uname" required>
+
+            <label for="psw" style="-webkit-text-fill-color:white"><b>Password</b></label>
+            <input type="password" placeholder="Enter Customer Password" name="psw" required>
+                
+            <button type="Submit">Login</button>
+            <label style="-webkit-text-fill-color:white">
+                <input type="checkbox" checked="checked" name="remember"><b>Remember me</b>
+            </label>
+        </div>
+        <br>
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+  <footer class="sticky-footer">
+      <ul>
+          <li><a href="Car_Rental_System.html">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="Contact_us.html">Contact us</a></li>
+          <li><a href="#">Technical support</a></li>
+      </ul>
+      <p> © 2021 Rental Car All rights reserved | Terms of Service | Privacy Policy</p>
+  </footer>
+</body>
+</html>

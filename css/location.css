@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(https://wallpapercave.com/wp/wp4218372.jpg);
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+}
+    
+
+.wrapper{
+    width: 860px; 
+    margin: 0 auto;
+}
+    
+.wrapper ul{
+    list-style: none;
+    margin-top: 2%;
+}
+.wrapper ul li {
+    background: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    font-family: poppins;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.wrapper ul li:hover{
+    background: crimson; 
+} 
+.wrapper ul ul{
+    display: none;
+}
+.wrapper ul li:hover > ul{
+    display: block;
+}
+.wrapper ul ul ul{
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+}
+
+
+.btn 
+{
+
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    background-color: DodgerBlue;
+    float: right;
+}
+.btn:hover 
+{
+    background:royalBlue;
+    cursor: pointer;
+}   
+.title-bar 
+{
+    overflow: hidden;
+    background-color: DodgerBlue;
+}
+.icon-btn 
+{
+    border: none;
+    color: white;
+    padding: 13px 13px;
+    font-size: 16px;
+    background-color: DodgerBlue;
+}
+.icon-btn:hover 
+{
+    overflow: hidden;
+    background-color: black;
+}
+.active, .btn:hover{
+    background-color: RoyalBlue;
+    color: white;
+}
+.info {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+
+
+footer p{
+    padding:0;
+    font-size: 0.8em;
+    color: hsla(0, 50%, 100%, 0.35);
+    margin: 1em 0;
+    font-size: 1rem;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    margin: 1em 0; 
+}
+footer ul li a{
+    padding: 1em; 
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.904);
+    transition: 100ms;
+}
+footer ul li a:hover{
+    color: var(--primary);
+}
+footer{
+    width:auto;
+    background: #06050a;
+    color: #fff; 
+    display: grid;
+    place-items: center;
+    padding: 1em; 
+    font-size: 1.2rem;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="..\css\Styles.css">
+    <title>Car Rental System</title>
+</head>
+<body>
+    <div class="title-bar">
+        <a href="Popular_location.html"><button class="btn" type="submit">Popular Locations</button></a>
+        <a href="Manage_booking.html"><button class="btn" type="submit">Manage Booking</button></a>
+        <a href="login.html"><button class="btn" type="submit">Login</button></a>
+        <a href="signup.html"><button class="btn" type="submit">Signup</button></a>
+        <button class="btn active" type="submit">Home</button>
+        <button class="icon-btn"> <img src="..\images\car-icon.png" alt="car-logo" width="17" height="17">  Car Rental System</button>
+    </div>
+    <br>
+    <div class="header" align="center">
+        <form>
+            <h1>Find Everything Near You</h1>
+            <br>
+            <div>
+                <input type="text" class="search-feild vechicle" placeholder="Vechicle...">
+                <input type="text" class="search-feild location" placeholder="Location...">
+                <button class="search-btn" type="submit"><img src="..\images\search-logo.webp" alt="car-logo" width="17" height="17"></button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <div>
+        <div style="width: 42.5%; float:left; height:500px; background:rgb(15, 22, 15); margin-left: 5%; margin-right: 2.5%; opacity: 0.7;">
+            <form>
+
+                <div class="signup-form bg-dark">
+        
+                    <div class="Signup-head bg-warning">
+                        <h1>Lets find your ideal car</h1>
+                    </div>
+        
+                    <div class="signup-content" style="color:white">
+                        <input type="radio" class="radio" name="r">
+                        <label class="text-white">One Way</label>
+                        <input type="radio" class="radio" name="r">
+                        <label class="text-white">Round Trip</label>
+                    </div>
+        
+                    <div class="signup-content2">
+                        <input type="text" placeholder="Source City" class="input bg-dark" style="color:black">
+                        <input type="text" placeholder="Destination City" class="input bg-dark" style="color:black"><br>
+                    
+        
+                    <label style="margin-left:10px;color:white">Depart</label>
+                    <input type="date" class="tarikh bg-dark text-white" style="color:black">
+                    <label style="margin-left:10px;color:white">Return</label>
+                    <input type="date" class="tarikh bg-dark" style="color:black">
+        
+                    <input type="number" class="bg-dark person" placeholder="Adults" style="color:black">
+                    <input type="number" class="bg-dark person" placeholder="Children" style="color:black"><br>
+        
+                    <label class="text-white travel" style="color:white">Cars Availabile here</label>
+                    <select class="bg-dark text-white travel2">
+                        <option>XUVS</option>
+                        <option>Renault Duster</option>
+                        <option>Harrier</option>
+                        <option>Tiago</option>
+                        <option>Bolero</option>
+                        <option>Thar</option>
+                        <option>Kwid</option>
+                        <option>Ertiga</option>
+                    </select>
+        
+                    <input type="submit" value="Check Availability" class="submit-btn bg-warning">
+                </div>
+                </div>
+            </form>
+        </div>
+        <div style="width: 42.5%; float:right; height:500px; background:rgb(15, 22, 15); margin-right: 5%; margin-left: 2.5% ;opacity: 0.7;">
+            <h2 style="padding-top: 2.5%;">Some of our Popular Locations</h2>
+            <section class="info">
+                <img width="250" height="150" src="..\images\shimla.jpg"></img>
+                <div>
+                  <h2 style="color:rgb(165, 113, 53);">Shimla</h2>
+                  <li style="color:lightgray;">Jakhoo Hill and Temple</li>
+                  <li style="color:lightgray;">Kufri, Shimla</li>
+                  <li style="color:lightgray;">Green Valley, Shimla</li>
+                  <li style="color:lightgray;">Indian Advanced Study</li>
+                  <li style="color:lightgray;">Kali Bari Temple, Shimla</li>
+                  <li style="color:lightgray;">Tara Devi Temple, Shimla</li>
+                </div>
+            </section>
+            <section class="info">
+                <img width="250" height="150" src="..\images\delhi.webp"></img>
+                <div>
+                  <h2 style="color:rgb(165, 113, 53);">New Delhi</h2>
+                  <li style="color:lightgray;">The Red Fort</li>
+                  <li style="color:lightgray;">Qutub Minar</li>
+                  <li style="color:lightgray;">The Lotus Temple</li>
+                  <li style="color:lightgray;">India Gate</li>
+                  <li style="color:lightgray;">Akshardham</li>
+                  <li style="color:lightgray;">Rajpath and Rashtrapati Bhavan</li>
+                </div>
+            </section>
+        </div>
+    </div>
+    <hr style="color:aliceblue;">
+    <footer class="sticky-footer">
+        <ul>
+            <li><a href="Car_Rental_System.html">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="Contact_us.html">Contact us</a></li>
+            <li><a href="#">Technical support</a></li>
+        </ul>
+        <p> © 2021 Rental Car All rights reserved | Terms of Service | Privacy Policy</p>
+      </footer>
+</body>
+</html>
