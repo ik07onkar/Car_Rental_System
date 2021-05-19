@@ -38,16 +38,12 @@ Car Rental System are agencies primarily serve people who require a temporary ve
 ![alt text](https://github.com/ik07onkar/Car_Rental_System/blob/main/images/ss_footer_bar.png?raw=true)
 
 
-## Technologies and Framework
-
-### Technologies & languages:-
-
+## Technologies Used
 *	__HTML__
 *	__CSS__
 *	__Java Script__
 
-### Framework & platforms:-
-
+## References
 *	W3schools.com
 *	Google Fonts
 *	GeeksforGeeks
